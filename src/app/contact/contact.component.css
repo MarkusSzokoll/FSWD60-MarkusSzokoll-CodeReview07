@@ -1,0 +1,45 @@
+body{
+	background-color: green;
+}
+.alert-info, .alert-success{
+	text-align: center;
+	width: 75%;
+	margin: -30px auto 0;
+}
+.button div{
+	text-align: center;
+}
+.row{
+	display: flex;
+	justify-content: space-around;
+	width: 100%;
+	margin: 0;
+}
+.myheading{
+	margin-bottom: 50px;
+}
+.btn-success{
+	padding: 10px 25px;
+	margin: 50px 0;
+	font-size: 1.3em;
+	outline: none;
+}
+.inputs{
+	background-color: #666;
+	margin-top: 25px;
+}
+label{
+	color: #fff;
+}
+.form-control{
+	height: 40px;
+	font-size: 1.3em;
+}
+.pad{
+	margin: 50px 0 25px 0;
+}
+@media screen and (max-width: 900px){
+	.content{
+		flex-direction: column;
+	}
+}

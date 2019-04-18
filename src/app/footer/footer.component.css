@@ -1,0 +1,26 @@
+.spacer{
+	width: 100%;
+	height: 50px;
+}
+.foot{
+	width: 100%;
+	height: 175px;
+	background-color: #222;
+	display: flex;
+	flex-direction: column;
+	margin-top: 50px!important;
+	position: absolute;
+	bottom: 0;
+}
+.footerimg{
+	margin: 20px auto;
+}
+.footerimg img{
+	width: 250px;
+	height: auto;
+}
+.footertext{
+	color: #fff;
+	margin: 0 auto;
+	font-size: 1.3em;
+}

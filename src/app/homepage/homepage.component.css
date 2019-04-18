@@ -1,0 +1,41 @@
+.jumbotron{
+	background: none;
+}
+.col-lg-12{
+	display: flex;
+}
+iframe{
+	width: 700px;
+	height: 350px;
+}
+@media screen and (max-width: 900px){
+	.col-lg-12{
+		flex-direction: column;
+	}
+	.contactinfo{
+		margin-left: 20px;
+		border-left: none!important;
+	}
+	iframe{
+		max-width: 90%;
+		margin-left: 20px;
+	}
+}
+.row{
+	width: 100%;
+}
+h2{
+	margin-left: 75px;
+}
+iframe{
+	margin: 0 25px 0 60px;
+}
+.fas{
+	padding: 20px 20px 0 20px;
+}
+hr{
+	border-color: #222;
+}
+.contactinfo{
+	border-left: 0.5px solid #222;
+}

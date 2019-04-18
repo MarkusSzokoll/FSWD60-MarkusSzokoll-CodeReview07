@@ -1,0 +1,10 @@
+html {
+	position: relative;
+	min-height: 100%;
+}
+body{
+	margin-bottom: 175px;
+	font-family: 'Mukta', sans-serif;
+	font-size: 2em;
+	background-color: rgb(220,220,220, .2);
+}

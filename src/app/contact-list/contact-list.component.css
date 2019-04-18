@@ -1,0 +1,53 @@
+.fa-times{
+	color: #e74c3c;
+}
+.btn-danger{
+	background-color: #e74c3c;
+	border-color: #c0392b;
+}
+.btn-danger:hover{
+	background-color: #c0392b;
+	border-color: #e74c3c;
+}
+.btn-danger i, .btn-info i{
+	padding: 5px 20px;
+}
+.btn-info{
+	background-color: #2980b9;
+	margin-right: 15px;
+}
+.btn-info:hover{
+	background-color: #269abc;
+	border-color: #2980b9; 
+}
+.form-inline{
+	margin-bottom: 30px;
+}
+.table, .table thead th, .btns{
+	text-align: center;
+}
+.table thead th{
+	background-color: #444;
+	height: 50px;
+	color: #fff;
+}
+.table-dark td{
+	color: #fff;
+	border-color: #000;
+}
+.table-dark:nth-child(odd){
+	background-color: #666;
+}
+.table-dark:nth-child(even){
+	background-color: #444;
+}
+.myheading{
+	margin-bottom: 50px;
+}
+.btn-dark{
+	background-color: #333;
+}
+input{
+	height: 40px;
+	font-size: 1.3em;
+}

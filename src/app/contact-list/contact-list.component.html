@@ -1,0 +1,25 @@
+<form class="form-inline">
+<h3>Search for Contact</h3>
+        <input name="searchInput" class="form-control" placeholder="Search..." #searchInput="ngModel" [(ngModel)]="searchText" style="width: 100%;">
+</form>
+<h4>Contacts</h4>
+<table class="table table-sm">
+        <thead>
+                <th>First Name</th>
+                <th>Last Name</th>
+                <th>Mobile</th>
+                <th class="edit">Edit</th>
+        </thead>
+        <ng-container *ngFor="let contact of contactArray">
+                <tr class="table-dark" *ngIf="filterCondition(contact)">
+                        <td>{{contact.firstName}}</td>
+                        <td>{{contact.lastName}}</td>
+                        <td>{{contact.mobile}}</td>
+                        <td>
+                                <button class="btns btn btn-info" (click)="contactService.populateForm(contact)"><i class="fas fa-pen"></i></button>
+                                <button class="btns btn btn-danger" (click)="onDelete(contact.$key)"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                </tr>
+        </ng-container>
+</table>
+<div class="alert alert-danger" *ngIf="showDeletedMessage">Deleted successfully</div>

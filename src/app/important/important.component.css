@@ -1,0 +1,26 @@
+.table thead th{
+	background-color: #444;
+	height: 50px;
+	color: #fff;
+	text-align: center;
+}
+.table{
+	text-align: center;
+}
+.table-dark td{
+	color: #fff;
+	border-color: #000;
+}
+.table-dark:nth-child(odd){
+	background-color: #666;
+}
+.table-dark:nth-child(even){
+	background-color: #444;
+}
+.container-fluid{
+	text-align: center;
+}
+.container-fluid h1{
+	margin-bottom: 25px;
+	font-size: 2.5em;
+}
